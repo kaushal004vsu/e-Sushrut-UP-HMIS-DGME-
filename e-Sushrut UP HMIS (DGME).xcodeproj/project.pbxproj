@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BB8D3812AB031E400599765 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8D3802AB031E400599765 /* AppDelegate.swift */; };
+		8BB8D3832AB031E400599765 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8D3822AB031E400599765 /* SceneDelegate.swift */; };
+		8BB8D3852AB031E400599765 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8D3842AB031E400599765 /* ViewController.swift */; };
+		8BB8D3882AB031E400599765 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB8D3862AB031E400599765 /* Main.storyboard */; };
+		8BB8D38A2AB031E700599765 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB8D3892AB031E700599765 /* Assets.xcassets */; };
+		8BB8D38D2AB031E700599765 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB8D38B2AB031E700599765 /* LaunchScreen.storyboard */; };
+		8BB8D3982AB031E700599765 /* e_Sushrut_UP_HMIS__DGME_Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8D3972AB031E700599765 /* e_Sushrut_UP_HMIS__DGME_Tests.swift */; };
+		8BB8D3A22AB031E700599765 /* e_Sushrut_UP_HMIS__DGME_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8D3A12AB031E700599765 /* e_Sushrut_UP_HMIS__DGME_UITests.swift */; };
+		8BB8D3A42AB031E700599765 /* e_Sushrut_UP_HMIS__DGME_UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB8D3A32AB031E700599765 /* e_Sushrut_UP_HMIS__DGME_UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BB8D3942AB031E700599765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BB8D3752AB031E400599765 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BB8D37C2AB031E400599765;
+			remoteInfo = "e-Sushrut UP HMIS (DGME)";
+		};
+		8BB8D39E2AB031E700599765 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BB8D3752AB031E400599765 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BB8D37C2AB031E400599765;
+			remoteInfo = "e-Sushrut UP HMIS (DGME)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BB8D37D2AB031E400599765 /* e-Sushrut UP HMIS (DGME).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "e-Sushrut UP HMIS (DGME).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB8D3802AB031E400599765 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BB8D3822AB031E400599765 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8BB8D3842AB031E400599765 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BB8D3872AB031E400599765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BB8D3892AB031E700599765 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8BB8D38C2AB031E700599765 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8BB8D38E2AB031E700599765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BB8D3932AB031E700599765 /* e-Sushrut UP HMIS (DGME)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "e-Sushrut UP HMIS (DGME)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB8D3972AB031E700599765 /* e_Sushrut_UP_HMIS__DGME_Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = e_Sushrut_UP_HMIS__DGME_Tests.swift; sourceTree = "<group>"; };
+		8BB8D39D2AB031E700599765 /* e-Sushrut UP HMIS (DGME)UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "e-Sushrut UP HMIS (DGME)UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB8D3A12AB031E700599765 /* e_Sushrut_UP_HMIS__DGME_UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = e_Sushrut_UP_HMIS__DGME_UITests.swift; sourceTree = "<group>"; };
+		8BB8D3A32AB031E700599765 /* e_Sushrut_UP_HMIS__DGME_UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = e_Sushrut_UP_HMIS__DGME_UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BB8D37A2AB031E400599765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB8D3902AB031E700599765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB8D39A2AB031E700599765 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BB8D3742AB031E400599765 = {
+			isa = PBXGroup;
+			children = (
+				8BB8D37F2AB031E400599765 /* e-Sushrut UP HMIS (DGME) */,
+				8BB8D3962AB031E700599765 /* e-Sushrut UP HMIS (DGME)Tests */,
+				8BB8D3A02AB031E700599765 /* e-Sushrut UP HMIS (DGME)UITests */,
+				8BB8D37E2AB031E400599765 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BB8D37E2AB031E400599765 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BB8D37D2AB031E400599765 /* e-Sushrut UP HMIS (DGME).app */,
+				8BB8D3932AB031E700599765 /* e-Sushrut UP HMIS (DGME)Tests.xctest */,
+				8BB8D39D2AB031E700599765 /* e-Sushrut UP HMIS (DGME)UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BB8D37F2AB031E400599765 /* e-Sushrut UP HMIS (DGME) */ = {
+			isa = PBXGroup;
+			children = (
+				8BB8D3802AB031E400599765 /* AppDelegate.swift */,
+				8BB8D3822AB031E400599765 /* SceneDelegate.swift */,
+				8BB8D3842AB031E400599765 /* ViewController.swift */,
+				8BB8D3862AB031E400599765 /* Main.storyboard */,
+				8BB8D3892AB031E700599765 /* Assets.xcassets */,
+				8BB8D38B2AB031E700599765 /* LaunchScreen.storyboard */,
+				8BB8D38E2AB031E700599765 /* Info.plist */,
+			);
+			path = "e-Sushrut UP HMIS (DGME)";
+			sourceTree = "<group>";
+		};
+		8BB8D3962AB031E700599765 /* e-Sushrut UP HMIS (DGME)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8BB8D3972AB031E700599765 /* e_Sushrut_UP_HMIS__DGME_Tests.swift */,
+			);
+			path = "e-Sushrut UP HMIS (DGME)Tests";
+			sourceTree = "<group>";
+		};
+		8BB8D3A02AB031E700599765 /* e-Sushrut UP HMIS (DGME)UITests */ = {
+			isa = PBXGroup;
+			children = (
+				8BB8D3A12AB031E700599765 /* e_Sushrut_UP_HMIS__DGME_UITests.swift */,
+				8BB8D3A32AB031E700599765 /* e_Sushrut_UP_HMIS__DGME_UITestsLaunchTests.swift */,
+			);
+			path = "e-Sushrut UP HMIS (DGME)UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BB8D37C2AB031E400599765 /* e-Sushrut UP HMIS (DGME) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BB8D3A72AB031E700599765 /* Build configuration list for PBXNativeTarget "e-Sushrut UP HMIS (DGME)" */;
+			buildPhases = (
+				8BB8D3792AB031E400599765 /* Sources */,
+				8BB8D37A2AB031E400599765 /* Frameworks */,
+				8BB8D37B2AB031E400599765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "e-Sushrut UP HMIS (DGME)";
+			productName = "e-Sushrut UP HMIS (DGME)";
+			productReference = 8BB8D37D2AB031E400599765 /* e-Sushrut UP HMIS (DGME).app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BB8D3922AB031E700599765 /* e-Sushrut UP HMIS (DGME)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BB8D3AA2AB031E700599765 /* Build configuration list for PBXNativeTarget "e-Sushrut UP HMIS (DGME)Tests" */;
+			buildPhases = (
+				8BB8D38F2AB031E700599765 /* Sources */,
+				8BB8D3902AB031E700599765 /* Frameworks */,
+				8BB8D3912AB031E700599765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BB8D3952AB031E700599765 /* PBXTargetDependency */,
+			);
+			name = "e-Sushrut UP HMIS (DGME)Tests";
+			productName = "e-Sushrut UP HMIS (DGME)Tests";
+			productReference = 8BB8D3932AB031E700599765 /* e-Sushrut UP HMIS (DGME)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8BB8D39C2AB031E700599765 /* e-Sushrut UP HMIS (DGME)UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BB8D3AD2AB031E700599765 /* Build configuration list for PBXNativeTarget "e-Sushrut UP HMIS (DGME)UITests" */;
+			buildPhases = (
+				8BB8D3992AB031E700599765 /* Sources */,
+				8BB8D39A2AB031E700599765 /* Frameworks */,
+				8BB8D39B2AB031E700599765 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BB8D39F2AB031E700599765 /* PBXTargetDependency */,
+			);
+			name = "e-Sushrut UP HMIS (DGME)UITests";
+			productName = "e-Sushrut UP HMIS (DGME)UITests";
+			productReference = 8BB8D39D2AB031E700599765 /* e-Sushrut UP HMIS (DGME)UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BB8D3752AB031E400599765 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					8BB8D37C2AB031E400599765 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					8BB8D3922AB031E700599765 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8BB8D37C2AB031E400599765;
+					};
+					8BB8D39C2AB031E700599765 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 8BB8D37C2AB031E400599765;
+					};
+				};
+			};
+			buildConfigurationList = 8BB8D3782AB031E400599765 /* Build configuration list for PBXProject "e-Sushrut UP HMIS (DGME)" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BB8D3742AB031E400599765;
+			productRefGroup = 8BB8D37E2AB031E400599765 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BB8D37C2AB031E400599765 /* e-Sushrut UP HMIS (DGME) */,
+				8BB8D3922AB031E700599765 /* e-Sushrut UP HMIS (DGME)Tests */,
+				8BB8D39C2AB031E700599765 /* e-Sushrut UP HMIS (DGME)UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BB8D37B2AB031E400599765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB8D38D2AB031E700599765 /* LaunchScreen.storyboard in Resources */,
+				8BB8D38A2AB031E700599765 /* Assets.xcassets in Resources */,
+				8BB8D3882AB031E400599765 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB8D3912AB031E700599765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB8D39B2AB031E700599765 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BB8D3792AB031E400599765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB8D3852AB031E400599765 /* ViewController.swift in Sources */,
+				8BB8D3812AB031E400599765 /* AppDelegate.swift in Sources */,
+				8BB8D3832AB031E400599765 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB8D38F2AB031E700599765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB8D3982AB031E700599765 /* e_Sushrut_UP_HMIS__DGME_Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB8D3992AB031E700599765 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB8D3A42AB031E700599765 /* e_Sushrut_UP_HMIS__DGME_UITestsLaunchTests.swift in Sources */,
+				8BB8D3A22AB031E700599765 /* e_Sushrut_UP_HMIS__DGME_UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BB8D3952AB031E700599765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BB8D37C2AB031E400599765 /* e-Sushrut UP HMIS (DGME) */;
+			targetProxy = 8BB8D3942AB031E700599765 /* PBXContainerItemProxy */;
+		};
+		8BB8D39F2AB031E700599765 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BB8D37C2AB031E400599765 /* e-Sushrut UP HMIS (DGME) */;
+			targetProxy = 8BB8D39E2AB031E700599765 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BB8D3862AB031E400599765 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BB8D3872AB031E400599765 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BB8D38B2AB031E700599765 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BB8D38C2AB031E700599765 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BB8D3A52AB031E700599765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8BB8D3A62AB031E700599765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BB8D3A82AB031E700599765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N8RPLXA4W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "e-Sushrut UP HMIS (DGME)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cdac.uphmis.e-Sushrut-UP-HMIS--DGME-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BB8D3A92AB031E700599765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N8RPLXA4W;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "e-Sushrut UP HMIS (DGME)/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cdac.uphmis.e-Sushrut-UP-HMIS--DGME-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8BB8D3AB2AB031E700599765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N8RPLXA4W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cdac.uphmis.e-Sushrut-UP-HMIS--DGME-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/e-Sushrut UP HMIS (DGME).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/e-Sushrut UP HMIS (DGME)";
+			};
+			name = Debug;
+		};
+		8BB8D3AC2AB031E700599765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N8RPLXA4W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cdac.uphmis.e-Sushrut-UP-HMIS--DGME-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/e-Sushrut UP HMIS (DGME).app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/e-Sushrut UP HMIS (DGME)";
+			};
+			name = Release;
+		};
+		8BB8D3AE2AB031E700599765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N8RPLXA4W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cdac.uphmis.e-Sushrut-UP-HMIS--DGME-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "e-Sushrut UP HMIS (DGME)";
+			};
+			name = Debug;
+		};
+		8BB8D3AF2AB031E700599765 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9N8RPLXA4W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.cdac.uphmis.e-Sushrut-UP-HMIS--DGME-UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "e-Sushrut UP HMIS (DGME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BB8D3782AB031E400599765 /* Build configuration list for PBXProject "e-Sushrut UP HMIS (DGME)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB8D3A52AB031E700599765 /* Debug */,
+				8BB8D3A62AB031E700599765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BB8D3A72AB031E700599765 /* Build configuration list for PBXNativeTarget "e-Sushrut UP HMIS (DGME)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB8D3A82AB031E700599765 /* Debug */,
+				8BB8D3A92AB031E700599765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BB8D3AA2AB031E700599765 /* Build configuration list for PBXNativeTarget "e-Sushrut UP HMIS (DGME)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB8D3AB2AB031E700599765 /* Debug */,
+				8BB8D3AC2AB031E700599765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BB8D3AD2AB031E700599765 /* Build configuration list for PBXNativeTarget "e-Sushrut UP HMIS (DGME)UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB8D3AE2AB031E700599765 /* Debug */,
+				8BB8D3AF2AB031E700599765 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BB8D3752AB031E400599765 /* Project object */;
+}
