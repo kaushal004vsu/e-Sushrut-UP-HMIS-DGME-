@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Emergency Contact View Controller-->
+        <scene sceneID="DSL-XO-2fU">
+            <objects>
+                <viewController storyboardIdentifier="EmergencyContactViewController" id="D7E-DS-SF1" customClass="EmergencyContactViewController" customModule="Railways_HMIS" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="esT-vp-POa"/>
+                        <viewControllerLayoutGuide type="bottom" id="aKQ-u6-vci"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="haC-ra-ibu">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Q6E-Oe-19y">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="152" id="8WR-lP-bsH" customClass="EmeregencyContactTableViewCell" customModule="Railways_HMIS" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="50" width="393" height="152"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="8WR-lP-bsH" id="t2Q-SV-PoI">
+                                            <rect key="frame" x="0.0" y="0.0" width="393" height="152"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="yzI-jo-TH4">
+                                                    <rect key="frame" x="8" y="8" width="377" height="136"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   Guna Railway Health Unit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wrc-dL-VJv">
+                                                            <rect key="frame" x="0.0" y="0.0" width="377" height="40"/>
+                                                            <color key="backgroundColor" name="AccentColor"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="40" id="RgH-Vv-p9f"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OQH-3n-Eyi">
+                                                            <rect key="frame" x="0.0" y="54" width="377" height="25"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="call" highlightedImage="call" translatesAutoresizingMaskIntoConstraints="NO" id="rzC-JR-hQ2">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="height" constant="25" id="7JJ-Fw-8vF"/>
+                                                                        <constraint firstAttribute="width" constant="25" id="WZ8-FD-moP"/>
+                                                                    </constraints>
+                                                                </imageView>
+                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gWe-4I-Q40">
+                                                                    <rect key="frame" x="25" y="0.0" width="352" height="25"/>
+                                                                    <state key="normal" title="Button"/>
+                                                                    <buttonConfiguration key="configuration" style="plain" title=""/>
+                                                                </button>
+                                                            </subviews>
+                                                        </stackView>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SE6-1Z-n4a">
+                                                            <rect key="frame" x="0.0" y="93" width="377" height="43"/>
+                                                            <subviews>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="email" translatesAutoresizingMaskIntoConstraints="NO" id="ltI-Q0-LfA">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="25" height="43"/>
+                                                                    <constraints>
+                                                                        <constraint firstAttribute="width" constant="25" id="ERj-pD-lLb"/>
+                                                                        <constraint firstAttribute="height" constant="25" id="f1u-DP-cz1"/>
+                                                                    </constraints>
+                                                                </imageView>
+                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="co5-E7-H7V">
+                                                                    <rect key="frame" x="25" y="0.0" width="352" height="43"/>
+                                                                    <state key="normal" title="Button"/>
+                                                                    <buttonConfiguration key="configuration" style="plain" title=""/>
+                                                                </button>
+                                                            </subviews>
+                                                        </stackView>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="yzI-jo-TH4" firstAttribute="leading" secondItem="t2Q-SV-PoI" secondAttribute="leading" constant="8" id="0et-mS-wPm"/>
+                                                <constraint firstItem="yzI-jo-TH4" firstAttribute="top" secondItem="t2Q-SV-PoI" secondAttribute="top" constant="8" id="9bp-Z9-pAr"/>
+                                                <constraint firstAttribute="trailing" secondItem="yzI-jo-TH4" secondAttribute="trailing" constant="8" id="CHG-1Y-Pzq"/>
+                                                <constraint firstAttribute="bottom" secondItem="yzI-jo-TH4" secondAttribute="bottom" constant="8" id="bnm-7T-XU3"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="email" destination="co5-E7-H7V" id="aKc-x7-fyg"/>
+                                            <outlet property="email_iv" destination="ltI-Q0-LfA" id="0DC-Ai-9MZ"/>
+                                            <outlet property="hospital_name" destination="Wrc-dL-VJv" id="QiR-Zj-MWZ"/>
+                                            <outlet property="phone_iv" destination="rzC-JR-hQ2" id="v6R-Zl-LCZ"/>
+                                            <outlet property="phone_no" destination="gWe-4I-Q40" id="NmS-yq-xDb"/>
+                                            <outlet property="stackView1" destination="OQH-3n-Eyi" id="H4x-PT-5yc"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="D7E-DS-SF1" id="qOb-BU-1yo"/>
+                                    <outlet property="delegate" destination="D7E-DS-SF1" id="FCq-YV-hZl"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7HQ-3w-CVe"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Q6E-Oe-19y" firstAttribute="bottom" secondItem="aKQ-u6-vci" secondAttribute="top" id="35w-SY-YYP"/>
+                            <constraint firstItem="Q6E-Oe-19y" firstAttribute="trailing" secondItem="haC-ra-ibu" secondAttribute="trailing" id="Rto-JE-ond"/>
+                            <constraint firstItem="Q6E-Oe-19y" firstAttribute="top" secondItem="esT-vp-POa" secondAttribute="bottom" id="g1H-gk-mNV"/>
+                            <constraint firstItem="Q6E-Oe-19y" firstAttribute="leading" secondItem="haC-ra-ibu" secondAttribute="leading" id="sYU-ce-ltf"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="Q6E-Oe-19y" id="iv7-NB-tHe"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H5X-3w-pbB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1793.1297709923663" y="619.71830985915494"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="call" width="32" height="32"/>
+        <image name="email" width="64" height="64"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
